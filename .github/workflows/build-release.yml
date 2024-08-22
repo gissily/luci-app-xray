@@ -114,7 +114,7 @@ jobs:
         with:
           files: "*.ipk"
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   notify:
     name: Notify Release Publish
